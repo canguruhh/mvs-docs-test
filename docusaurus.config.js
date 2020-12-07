@@ -1,13 +1,13 @@
 module.exports = {
   title: 'Metaverse',
   tagline: 'The new reality',
-  url: 'https://mvs.org',
-  baseUrl: '/',
+  url: 'https://canguruhh.github.io/',
+  baseUrl: '/mvs-docs-test/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/logo.png',
-  organizationName: 'Metaverse Foundation', // Usually your GitHub org/user name.
-  projectName: 'mvs-org', // Usually your repo name.
+  organizationName: 'canguruhh', // Usually your GitHub org/user name.
+  projectName: 'canguruhh.github.io', // Usually your repo name.
   themeConfig: {
     colorMode: {
       defaultMode: 'dark',

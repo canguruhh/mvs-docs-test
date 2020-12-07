@@ -7,7 +7,7 @@ module.exports = {
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/logo.png',
   organizationName: 'canguruhh', // Usually your GitHub org/user name.
-  projectName: 'canguruhh.github.io', // Usually your repo name.
+  projectName: 'mvs-docs-test', // Usually your repo name.
   themeConfig: {
     colorMode: {
       defaultMode: 'dark',

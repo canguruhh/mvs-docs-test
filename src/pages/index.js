@@ -68,7 +68,7 @@ function Feature({imageUrl, title, description}) {
   return (
     <div className={clsx('col col--4', styles.feature)}>
       {imgUrl && (
-        <div className="text--center">
+        <div classname="text--center">
           <img className={styles.featureImage} src={imgUrl} alt={title} />
         </div>
       )}
@@ -104,6 +104,7 @@ function Home() {
         {features && features.length > 0 && (
           <section className={styles.features}>
             <div className="container">
+          <h1 className="text--center">The Future Of Finance Is Here</h1>
               <div className="row">
                 {features.map((props, idx) => (
                   <Feature key={idx} {...props} />

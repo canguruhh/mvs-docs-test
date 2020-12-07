@@ -8,6 +8,8 @@ tags: [CoreDev]
 
 Metaverse is a decentralized open platform of smart properties and digital identities, based on public blockchain technology. We want to share an update from our weekly internal developer meeting. The following topics have been discussed.
 
+<!--truncate-->
+
 ## DNA account integration into MyETPWallet
 MyETPWallet will allow the user to send and receive DNA chain tokens. The wallet will generate a DNA account based on the HD wallet functions and have a “d” character prefix to indicate that it’s a DNA chain account.
 

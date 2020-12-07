@@ -87,7 +87,7 @@ function Home() {
       description="Description will go into a meta tag in <head />">
       <header className={clsx('hero hero--primary', styles.heroBanner)}>
         <div className="container">
-          <img src="/img/metaverse-logo.png"></img>
+          <img src={useBaseUrl('/img/metaverse-logo.png')}></img>
           <div className={styles.buttons}>
             <Link
               className={clsx(

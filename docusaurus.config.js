@@ -2,7 +2,7 @@ module.exports = {
   title: 'Metaverse',
   tagline: 'The new reality',
   url: 'https://canguruhh.github.io',
-  baseUrl: '/docs-mvs-org/',
+  baseUrl: '/mvs-docs-test/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/logo.png',

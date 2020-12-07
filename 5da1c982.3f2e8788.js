@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[13],{80:function(t){t.exports=JSON.parse('{"allTagsPath":"/mvs-docs-test/blog/tags","slug":"my-etp-wallet","name":"myetpwallet","count":1,"permalink":"/mvs-docs-test/blog/tags/my-etp-wallet"}')}}]);

@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[10],{77:function(s){s.exports=JSON.parse('{"allTagsPath":"/mvs-docs-test/blog/tags","slug":"core-dev","name":"coredev","count":1,"permalink":"/mvs-docs-test/blog/tags/core-dev"}')}}]);

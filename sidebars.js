@@ -1,15 +1,45 @@
 module.exports = {
-  someSidebar: {
-    Introduction: ['user/intro'],
-    API: ['user/mdx'],
-    Wallet: ['user/doc4'],
-    Other: ['user/doc1', 'user/doc2', 'user/doc3'],
-  },
-  devSidebar: {
-      Basics: ['dev/architecture', 'dev/testnet'],
-      API: ['dev/rpc', 'dev/wsrpc', 'dev/jslib']
-  },
-  adminSidebar: {
-      Basics: ['admin/intro'],
-  },
+    mainSidebar: {
+        General: [
+            'general/intro',
+            'general/etp',
+            'general/digital-identity',
+            {
+                'Smart Assets': ['general/mst', 'general/mit']
+            },
+            {
+                'Hybrid Consensus': ['general/pow', 'general/dpos']
+            },
+            'general/architecture',
+            'general/help'
+        ],
+        User: [
+            'user/install',
+            'user/security',
+            {
+                Wallet: ['user/create-wallet', 'user/receive', 'user/send-etp', 'user/send-assets', 'user/create-avatar', 'user/voting'],
+            },
+            {
+                'Architects': ['user/create-mst', 'user/create-mit', 'user/deploy-contract' ],
+            },
+        ],
+        Developer: [
+            'dev/api',
+            'dev/testnet',
+            {
+                'Smart Contracts': ['dev/webassembly', 'dev/evm', ],
+            },
+            'dev/jslib',
+        ],
+        Admin: [
+            'admin/install',
+            'admin/configure',
+            'admin/upgrade',
+            'admin/security',
+            {
+                'Consensus': ['admin/pow-solo', 'admin/pow-pool', 'admin/dpos'],
+            },
+            'admin/monitoring',
+        ],
+    },
 };

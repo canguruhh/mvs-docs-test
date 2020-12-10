@@ -21,17 +21,34 @@ module.exports = {
       },
       items: [
         {
-          to: 'docs/',
-          activeBasePath: 'docs',
-          label: 'Docs',
+            to: 'docs/get-wallet',
+            label: 'Get Wallet',
+            position: 'left',
+        },
+        {
+            to: 'docs/user',
+            activeBasePath: 'docs/user',
+            label: 'User',
+            position: 'left',
+        },
+        {
+          to: 'docs/dev',
+          activeBasePath: 'docs/dev',
+          label: 'Developer',
           position: 'left',
+        },
+        {
+            to: 'docs/admin',
+            activeBasePath: 'docs/admin',
+            label: 'Admin',
+            position: 'left',
         },
         {to: 'blog', label: 'Blog', position: 'left'},
         {
-          href: 'https://github.com/mvs-org/metaverse',
-          label: 'GitHub',
-          position: 'right',
-        },
+            to: 'https://explorer.mvs.org',
+            label: 'Explorer',
+            position: 'right',
+        }
       ],
       style: 'dark'
     },
@@ -42,12 +59,16 @@ module.exports = {
           title: 'Docs',
           items: [
             {
-              label: 'Style Guide',
-              to: 'docs/',
+              label: 'User Guide',
+              to: 'docs/user',
             },
             {
-              label: 'Second Doc',
-              to: 'docs/doc2/',
+              label: 'Developer Guide',
+              to: 'docs/dev',
+            },
+            {
+                label: 'Admin Guide',
+                to: 'docs/admin',
             },
           ],
         },
@@ -55,8 +76,8 @@ module.exports = {
           title: 'Community',
           items: [
             {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/metaverse',
+              label: 'Telegram',
+              href: 'https://t.me/Metaverse_Blockchain',
             },
             {
               label: 'Discord',
@@ -92,11 +113,11 @@ module.exports = {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
-          editUrl:
-            'https://github.com/mvs-org/metaverse/edit/master/website/',
+          //editUrl:
+          //  'https://github.com/mvs-org/metaverse/edit/master/website/',
         },
         blog: {
-          showReadingTime: true,
+          showReadingTime: false,
           // Please change this to your repo.
           editUrl:
             'https://github.com/facebook/docusaurus/edit/master/website/blog/',

@@ -94,7 +94,7 @@ function Home() {
                 'button button--outline button--secondary button--lg',
                 styles.getStarted,
               )}
-              to={useBaseUrl('docs/user')}>
+              to={useBaseUrl('docs')}>
               ENTER THE NEW REALITY
             </Link>
           </div>
@@ -104,7 +104,7 @@ function Home() {
         {features && features.length > 0 && (
           <section className={styles.features}>
             <div className="container">
-          <h1 className="text--center">The Future Of Finance Is Here</h1>
+          <h1 className="text--center">Decentralized Digital Asset Modelling Platform</h1>
               <div className="row">
                 {features.map((props, idx) => (
                   <Feature key={idx} {...props} />

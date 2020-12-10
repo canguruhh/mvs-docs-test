@@ -1,7 +1,7 @@
 module.exports = {
   title: 'Metaverse',
   tagline: 'The new reality',
-  url: 'https://canguruhh.github.io',
+  url: 'https://newdocs.mvs.org',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',

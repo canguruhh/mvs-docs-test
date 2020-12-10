@@ -24,6 +24,7 @@ module.exports = {
             },
         ],
         Developer: [
+            'dev/intro',
             'dev/api',
             'dev/testnet',
             {

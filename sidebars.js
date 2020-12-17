@@ -28,7 +28,7 @@ module.exports = {
             'dev/api',
             'dev/testnet',
             {
-                'Smart Contracts': ['dev/webassembly', 'dev/evm', ],
+                'Smart Contracts': ['dev/webassembly', 'dev/evm', 'dev/metamask'],
             },
             'dev/jslib',
         ],
